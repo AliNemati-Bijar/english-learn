@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آموزش زبان انگلیسی - English Learning</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      direction: rtl;
+      margin: 0;
+      background: #f7f9fc;
+      color: #333;
+    }
+
+    header {
+      background: #4f9ee3;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #d2f8d2;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(135deg, #4f9ee3, #6fd08c);
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero button {
+      background: white;
+      color: #4f9ee3;
+      border: none;
+      padding: 0.8rem 1.6rem;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .hero button:hover {
+      transform: scale(1.1);
+    }
+
+    .levels {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 3rem 1rem;
+      background: #fff;
+    }
+
+    .level-card {
+      background: #eaf6ff;
+      margin: 1rem;
+      padding: 1.5rem;
+      border-radius: 12px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+
+    .level-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .features {
+      padding: 3rem 2rem;
+      background: #f2fbf5;
+      text-align: center;
+    }
+
+    .features h3 {
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+      color: #333;
+    }
+
+    .feature-box {
+      display: inline-block;
+      background: white;
+      margin: 1rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      background: #4f9ee3;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .levels {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>English Learn</h1>
+    <nav>
+      <a href="#">خانه</a>
+      <a href="#">دوره‌ها</a>
+      <a href="#">آزمون</a>
+      <a href="#">تماس با ما</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>یادگیری زبان انگلیسی با لذت و سادگی 🎓</h2>
+    <p>از سطح مبتدی تا پیشرفته، با تمرین، ویدیو و آزمون‌های جذاب یاد بگیر!</p>
+    <button onclick="startLearning()">شروع یادگیری</button>
+  </section>
+
+  <section class="levels">
+    <div class="level-card">
+      <h3>🔰 سطح A1</h3>
+      <p>آشنایی با الفبا، لغات پایه و جملات ساده.</p>
+    </div>
+    <div class="level-card">
+      <h3>🚀 سطح B1</h3>
+      <p>مکالمات روزمره و درک متون عمومی.</p>
+    </div>
+    <div class="level-card">
+      <h3>🌟 سطح C1</h3>
+      <p>درک متون تخصصی و مکالمه حرفه‌ای.</p>
+    </div>
+  </section>
+
+  <section class="features">
+    <h3>ویژگی‌های سایت ما</h3>
+    <div class="feature-box">🎧 تمرین شنیداری</div>
+    <div class="feature-box">🗣️ مکالمه با هوش مصنوعی</div>
+    <div class="feature-box">📝 آزمون‌های تعاملی</div>
+    <div class="feature-box">📈 پیگیری پیشرفت شما</div>
+  </section>
+
+  <footer>
+    <p>© 2025 English Learn | طراحی با ❤️ توسط شما</p>
+  </footer>
+
+  <script>
+    function startLearning() {
+      alert("🎉 بیایید یادگیری را شروع کنیم!");
+    }
+  </script>
+
+</body>
+</html>
